@@ -1,13 +1,12 @@
-package java.br.gov.fatec.springboot3labiv;
+package br.gov.fatec.springbboot3labiv;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Springboot3labivApplication {
-
+public class Springbboot3labivApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(Springboot3labivApplication.class, args);
+		SpringApplication.run(Springbboot3labivApplication.class, args);
 	}
 
 }

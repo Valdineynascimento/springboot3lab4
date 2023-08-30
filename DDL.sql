@@ -1,14 +1,14 @@
-drop schema if exists spring;
+drop schema if exists anotacao;
 
 drop user if exists 'user'@'localhost';
 
-create schema spring;
+create schema anotacao;
 
 create user 'user'@'localhost' identified by 'pass123';
 
-grant select, insert, delete, update on spring.* to user@'localhost';
+grant select, insert, delete, update on anotacao.* to user@'localhost';
 
-use spring;
+use anotacao;
 
 create table usr_usuario (
   usr_id bigint unsigned not null auto_increment,

@@ -1,4 +1,4 @@
-package java.br.gov.fatec.springboot3labiv;
+package br.gov.fatec.springbboot3labiv;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
