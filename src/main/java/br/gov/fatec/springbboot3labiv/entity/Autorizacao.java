@@ -29,6 +29,8 @@ public class Autorizacao {
     @ManyToMany(mappedBy = "autorizacoes", fetch = FetchType.LAZY)
     private Set<Usuario> usuarios;
 
+    public Autorizacao() {}
+    
     public Autorizacao(String nome) {
         this.nome = nome;
     }
